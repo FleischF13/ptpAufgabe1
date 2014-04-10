@@ -28,20 +28,11 @@ public class Draw
 
     /** This is the application method that processes commands sent by the GUI */
     public void doCommand(String command)
-    {
-        if (command.equals("clear"))
-        { // clear the GUI window
-            // It would be more modular to include this functionality in the GUI
-            // class itself. But for demonstration purposes, we do it here.
-            Graphics g = window.getGraphics();
-            g.setColor(window.getBackground());
-            g.fillRect(0, 0, window.getSize().width, window.getSize().height);
-        }
         else if (command.equals("quit"))
         { // quit the application
             window.dispose(); // close the GUI
             System.exit(0); // and exit.
-        }
+        }zkiuiluololu
     }
 }
 
